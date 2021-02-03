@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,500,700,900);
+@import url(https://use.fontawesome.com/releases/v5.2.0/css/all.css);
+
+body {
+  color: #575F7D;
+  background-color: rgb(240,240,240);
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  font_weight: lighter;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #575f7d;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #575f7d;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.img-circle {
+    border-radius: 50%;
+
+}
+
+.container {
+  width: 460px;
+  margin: 0px auto;
+}
+
+.card {
+  color: #575f7d;
+  text-align: center;
+  border-radius: 4px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,10%);
+  margin: 10px 0px;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+}
+
+li, i {
+  list-style: none;
+  display: inline-flex;
+  color: rgb(160,160, 160);
+  font-size: 40px;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+ul {
+  padding: 0;
+}
+
+#follow-me {
+  font-size: 16px;
+  color: #575f7d;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 8px;
+}
+
+.list-inline i:hover {
+  color: black;
+}
+
+#who-is {
+  padding:4px;
+}
